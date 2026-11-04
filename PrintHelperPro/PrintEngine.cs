@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using PdfSharp.Pdf;
 using PdfSharp.Pdf.IO;
 using PdfiumViewer;
+using System.Drawing.Printing;
 
 namespace PrintHelperPro
 {
@@ -19,6 +20,9 @@ namespace PrintHelperPro
             Document.Close();
 
         }
+
+        public void PrintFile(string FileName , PrinterSettings Settings) // continue
+
 
     }
 }
