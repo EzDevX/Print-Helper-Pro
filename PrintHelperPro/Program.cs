@@ -11,6 +11,12 @@ namespace PrintHelperPro
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        public static string GetMainAppPath()
+        {
+            return Application.StartupPath;
+        }
+
         [STAThread]
         static void Main()
         {
